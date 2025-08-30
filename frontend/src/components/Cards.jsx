@@ -7,7 +7,7 @@ function Cards() {
         <div>
 
             {matchtest.map(game => (
-                <div key={game.id} className={`card-matches flex ${game.result === 'W' ? 'bg-gradient-to-b from-blue-600/20 to-blue-600/10' : game.result === 'L' ? 'bg-gradient-to-b from-red-600/20 to-red-600/10' : 'bg-gray-500'} justify-between items-center p-4 rounded-md border bg-black/80 border-2 border-slate-600/30`}>
+                <div key={game.id} className={`card-matches flex ${game.result === 'W' ? 'bg-gradient-to-b from-blue-600/20 to-blue-600/10' : game.result === 'L' ? 'bg-gradient-to-b from-red-600/20 to-red-600/10' : 'bg-gray-500'} justify-between items-center p-4 rounded-md border bg-black/80 border-slate-600/30`}>
                   <div className='flex flex-row items-center gap-4'>
                     <img src={game.champ} className='rounded-sm w-full border-2 border-slate-600/80'></img>
                     <div>

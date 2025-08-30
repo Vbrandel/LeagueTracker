@@ -10,9 +10,9 @@ function App() {
   return (
     <div className='container mx-auto px-4 py-6'>
       <h1 className='text-red-500'>League Tracker</h1>
-      <div>
+      <div className='h-full flex gap-24'>
       <Ladder />
-      <Cards />
+      <Cards className='flex-grow'/>
       </div>
     </div>
   )
