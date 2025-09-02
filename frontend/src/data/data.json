@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Virgil",
       "nickname": "Nekes",
-      "rank": "Diamant 4",
+      "rank": "D4 35 lp",
       "wins": 150,
       "losses": 140
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Yazid",
       "nickname": "Karim Benzemaaa",
-      "rank": "Emeraude 3",
+      "rank": "E3 25 lp",
       "wins": 150,
       "losses": 190
     },
@@ -19,7 +19,23 @@
       "id": 3,
       "name": "Adrien",
       "nickname": "Nerviosse",
-      "rank": "Bronze 3",
+      "rank": "B3 31 lp",
+      "wins": 20,
+      "losses": 45
+    },
+    {
+      "id": 3,
+      "name": "Adrien",
+      "nickname": "Nerviosse",
+      "rank": "B3 31 lp",
+      "wins": 20,
+      "losses": 45
+    },
+    {
+      "id": 3,
+      "name": "Adrien",
+      "nickname": "Nerviosse",
+      "rank": "B3 31 lp",
       "wins": 20,
       "losses": 45
     }
