@@ -14,36 +14,15 @@ function App() {
 
   return (
     <div className="bg-slate-900 min-h-screen">
-      <div className="container mx-auto px-4 py-6">
+      <div className="container mx-auto px-4 py-4 2xl:px-10 2xl:py-10">
         {/* Header */}
-        <div className="flex justify-between items-center mb-6">
-          <h1 className="text-slate-200 text-4xl font-bold">League Tracker</h1>
-          <div className="flex items-center gap-4">
-            {lastUpdate && (
-              <span className="text-slate-400 text-sm">
-                Dernière MAJ : {lastUpdate}
-              </span>
-            )}
-            <button
-              onClick={handleRefresh}
-              className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg"
-            >
-              Actualiser
-            </button>
-          </div>
-        </div>
+          <h1 className="text-slate-200 text-4xl font-bold text-center">Le mur de la honte</h1>
 
-        {/* Content */}
-        <div className="">
-          {/* Colonne gauche */}
-          <div className="">
+        <div className="flex flex-col 2xl:flex-row gap-10 2xl:p-6">
             <Ladder refreshFlag={refreshFlag} />
-          </div>
 
           {/* Colonne droite */}
-          <div className="">
             <Cards refreshFlag={refreshFlag} />
-          </div>
         </div>
       </div>
     </div>

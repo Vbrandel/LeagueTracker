@@ -1,0 +1,1 @@
+export const ITEM_PLACEHOLDER = "/assets/placeholder.png"; // ou ""
