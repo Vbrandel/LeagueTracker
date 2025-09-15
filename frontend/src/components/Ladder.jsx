@@ -77,7 +77,7 @@ function Ladder({ refreshFlag }) {
     <div className="flex-col">
       <h2 className="text-slate-300 text-3xl font-bold mb-4 text-center">Classement</h2>
 
-      {/* Table pour desktop */}
+      {/* Tableau desktop */}
       <div className="hidden md:block overflow-hidden rounded-md border border-slate-600/30">
         <table className="table-auto w-full text-center text-slate-300">
           <thead>
@@ -105,7 +105,7 @@ function Ladder({ refreshFlag }) {
         </table>
       </div>
 
-      {/* Cartes pour mobile */}
+      {/* Cards pour mobile */}
       <div className="md:hidden space-y-4">
         {players.map((p) => (
           <div key={p.id} className="bg-slate-700 p-4 rounded-md border border-slate-600/50">

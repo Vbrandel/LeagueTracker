@@ -43,7 +43,7 @@ function CardItem({ game }) {
           <span className="font-semibold text-yellow-200">{game.assist}</span>
         </div>
 
-        {/* Sorts + Items : passer sous la carte sur mobile */}
+        {/* Sorts + Items : passer sous la card sur mobile */}
         <div className="mt-2 md:mt-0 w-full md:w-auto">
           <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 bg-slate-700 p-2 rounded-md border border-slate-600/80">
             <div className="grid grid-cols-2 grid-rows-1 gap-1">
